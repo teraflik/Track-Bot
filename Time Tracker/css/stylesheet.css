@@ -1,0 +1,79 @@
+html{
+    min-height:100;
+    position:relative;
+}
+body{
+    background-color: black;
+    height:100%;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+    color: ghostwhite;
+}
+
+.title {
+    font-family: 'Days One', sans-serif;
+    font-size: 50px;  
+    text-align: center;
+    color: ghostwhite;
+}
+.side-nav {
+    
+    background-color: black;
+    color: ghostwhite;
+    top:20%;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    z-index:1;
+    float: left;
+    
+}
+
+#content {
+    margin: 0 auto;
+}
+.side-nav div {
+    
+    padding: 20px 30px 20px 30px;
+    font-size: 1.4em;    
+}
+
+@media (max-width: 1050px) {
+    .nav-titles {
+        display: none;
+    }
+}
+
+.side-nav div:hover {
+    background-color: rgba(120, 120, 120, 0.5);
+    margin: 0 -20px 0 -16px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.nav-titles {
+    padding: 20px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+#content {
+    padding: 50px 100px 50px 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}

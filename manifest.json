@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "config.js", "sites.js", "tracker.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Time Tracker"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Keeps track of how much time you spend on various web sites.",
+   "icons": {
+      "128": "images/icon.png",
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDTbCDrrlic5JtM9k2+DnKE8W2GcuDql0wtU3cIH+/wwA+iXJZGWYblA0T3vp0HbKrfg5uGHdDvJGMKgKnZ+xtto/4ELMkB865YnBRmldpfIlEdExPc+HkTJoGWccN6q8ry84m4dhQlO471cvcTB2s4IqNAg6d2Za0A+qcNkLHS+QIDAQAB",
+   "manifest_version": 2,
+   "name": "Time Tracker",
+   "options_page": "options.html",
+   "permissions": [ "alarms", "idle", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.4"
+}
