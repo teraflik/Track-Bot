@@ -36,6 +36,7 @@ function addLocalDisplay() {
 	var sites = opSites.sites;
 	var sortedSites = new Array();
 	var totalTime = 0;
+	
 	for (site in sites) {
 		sortedSites.push([site, sites[site]]);
 		totalTime += sites[site];
