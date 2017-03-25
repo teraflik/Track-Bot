@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "config.js", "sites.js", "tracker.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Track Bot"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Keeps track of how much time you spend on various web sites.",
+   "icons": {
+      "128": "images/icon128.png",
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
+   },
+   "manifest_version": 2,
+   "name": "Track Bot",
+   "permissions": [ "alarms", "idle", "tabs" ],
+   "version": "1.0.0"
+}
