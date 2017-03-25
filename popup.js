@@ -21,7 +21,7 @@ function secondsToString(seconds) {
 		str = str + " " + mins + "m";
 	}
 	if (secs) {
-		str = str + " " + secs.toFixed(0) + "str";
+		str = str + " " + secs.toFixed(0) + "s";
 	}
 	return str;
 }
