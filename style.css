@@ -1,0 +1,105 @@
+body
+{
+	line-height: 1.6em;
+    font-family: Nunito;
+}
+td, th {
+    color: rgb(37,37,132);
+}
+
+#clear {
+	float: right;
+}
+
+#stats
+{
+	font-family: "Nunito", "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#stats th
+{
+	font-size: 14px;
+	font-weight: normal;
+	padding: 8px;
+	background: rgb(37,37,132);
+	border-top: 4px solid rgb(37,37,132);
+	border-bottom: 1px solid #fff;
+	color: ghostwhite;
+}
+#stats tbody tr {
+  background-attachment:fixed;
+}
+#stats tr
+{
+	background: #fff; 
+	border-bottom: 1px solid #fff;
+	color: rgb(37,37,132);
+	border-top: 1px solid transparent;
+}
+#stats td
+{
+	padding: 8px;
+}
+
+#stats img
+{
+  padding-right: 6px;
+}
+#stats a:link,
+#stats a:visited
+{
+  text-decoration: none;
+  color: rgb(37,37,132);
+}
+#stats a
+{
+    color: inherit;
+}
+#stats a:hover
+{
+  color: #fff;
+}
+#stats a:active
+{
+  color: red;
+}
+#stats_tbody tr:hover td
+{
+    color:white;
+}
+
+#stats tr:hover td
+{
+    background: rgb(37,37,132);
+    color: #fff;
+}
+
+.anchor{
+    color: inherit !important;   
+}
+.btn {
+  position: relative;
+  display: block;
+  margin: 1px auto;
+  padding: 10px;
+  left: 0;
+  right: 100%;
+  overflow: hidden;
+  border-width: 0;
+  outline: none;
+  border-radius: 1px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6); 
+  background-color: rgb(37,37,132);
+  min-width: 100%;
+  color: white;
+  
+  transition: background-color .3s;
+}
+
+.btn:hover, .btn:focus {
+  background-color: rgba(64, 171, 221, 0.5);
+  color: rgb(37,37,132);
+}
