@@ -1,2 +1,2 @@
-Time Tracker
+Track Bot
 Extension for Google Chrome
