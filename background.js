@@ -3,6 +3,7 @@ _gaq.push(['_setAccount', 'UA-45267314-2']);
 _gaq.push(['_trackPageview']);
 
 (function() {
+  
   var sr = document.createElement('script'); sr.type = 'text/javascript'; sr.async = true;
   sr.src = 'https://ssl.google-analytics.com/sr.js';
   var str = document.getElementsByTagName('script')[0]; str.parentNode.insertBefore(sr, str);
@@ -10,6 +11,7 @@ _gaq.push(['_trackPageview']);
 
 function clearStats() {
   if (config.clearStatsInterval < 3600) {
+    
     config.nextTimeToClear = 0;
     return;
   }
